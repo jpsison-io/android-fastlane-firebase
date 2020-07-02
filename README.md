@@ -3,7 +3,7 @@ Image for building android apps  and deploying to Google Play Store and Firebase
 
 ## Available on [Dockerhub](https://hub.docker.com/r/jpsison/android-fastlane-firebase)
 ```
-FROM jpsison/android-fastlane-firebase
+image: jpsison/android-fastlane-firebase
 
 ... and yours will be here ^_^
 ```
