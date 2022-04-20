@@ -8,8 +8,8 @@ ENV LANGUAGE "en_US.UTF-8"
 ENV LANG "en_US.UTF-8"
 
 ENV VERSION_SDK_TOOLS "4333796"
-ENV VERSION_BUILD_TOOLS "30.0.1"
-ENV VERSION_TARGET_SDK "30"
+ENV VERSION_BUILD_TOOLS "30.0.3"
+ENV VERSION_TARGET_SDK "31"
 
 ENV ANDROID_SDK_ROOT "/android-sdk"
 
@@ -23,7 +23,7 @@ RUN apt-get upgrade -y
 RUN apt-get update && apt-get install -y ruby \
     ruby-dev \
     unzip \
-    openjdk-8-jdk \
+    openjdk-11-jdk \
     build-essential
 
 RUN ruby --version
