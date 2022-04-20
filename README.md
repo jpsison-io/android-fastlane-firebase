@@ -9,6 +9,7 @@ image: jpsison/android-fastlane-firebase:sdk-<SDK Version>
 ```
 
 ## Android SDK Versions
+- [31](https://developer.android.com/studio/releases/platforms#11)
 - [30](https://developer.android.com/studio/releases/platforms#11)
 - [29](https://developer.android.com/studio/releases/platforms#10)
 - [28](https://developer.android.com/studio/releases/platforms#9.0)
@@ -21,8 +22,8 @@ image: jpsison/android-fastlane-firebase:sdk-<SDK Version>
 - [21](https://developer.android.com/studio/releases/platforms#5.0)
 
 ## Built With
-- Android SDK (Target Version 30, Build Tools 30.0.1)
-- openjdk-8-jdk
+- Android SDK (Target Version 31, Build Tools 30.0.3)
+- openjdk-11-jdk
 - Ruby
 - Fastlane
 - Firebase
